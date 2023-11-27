@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+.header{
+    background-color: #FFF2CC;
+    padding:40px 200px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.puppies{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.info{
+    color: #DFA67B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.information{
+    flex-basis: 600px;
+}
+
+.information > h1{
+    font-size: 48px;
+}
+
+.information > p{
+    font-size: 30px;
+}
