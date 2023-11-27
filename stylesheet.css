@@ -115,7 +115,7 @@ ul{
 
 .sign-up{
     background-color: #FFD966;
-    padding: 200px 0;
+    padding: 150px 0;
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -151,4 +151,18 @@ button{
     padding: 5px;
     font-size: 20px;
     cursor: pointer;
+}
+
+/* Below this is everything for footer */
+
+footer{
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p{
+    font-size: 10pxpx;
 }
