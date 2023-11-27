@@ -1,3 +1,4 @@
+/* Below is the general CSS */
 *{
     padding: 0;
     margin: 0;
@@ -18,6 +19,8 @@ ul{
     display: flex;
     gap: 30px;
 }
+
+/* Bgelow is every CSS for the Header */
 .header{
     background-color: #FFF2CC;
     padding:40px 200px;
@@ -29,6 +32,11 @@ ul{
     margin-bottom: 50px;
 }
 
+.title > h1{
+    font-size: 60px;
+    color: #DFA67B;
+    align-self: center;
+}
 .logo{
     width: 200px;
     height: 200px;
@@ -42,7 +50,7 @@ ul{
 }
 
 .info{
-    color: #DFA67B;
+    color: #F4B183 ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,10 +61,35 @@ ul{
     flex-basis: 600px;
 }
 
-.information > h1{
+.information > h2{
     font-size: 48px;
 }
 
 .information > p{
     font-size: 30px;
+}
+
+/* Below this is every CSS for */
+
+.content{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFD966;
+}
+
+.content > div{
+    flex-basis: 400px;
+}
+
+.content > div > img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+.content > div > p{
+    font-size: 25px;
+    color: #DFA67B;
 }
