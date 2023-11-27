@@ -72,7 +72,7 @@ ul{
 /* Below this is every CSS for content */
 
 .content{
-    padding: 40px 0;
+    padding: 80px 0;
     display: flex;
     justify-content: space-evenly;
     background-color: #FFD966;
@@ -98,7 +98,7 @@ ul{
 
 .quote{
     display: flex;
-    padding: 40px 0;
+    padding: 200px 0;
     justify-content: center;
     align-items: center;
     background-color: #FFF2CC;
@@ -109,4 +109,46 @@ ul{
     font-size: 30px;
     flex-basis: 800px;
     font-style: italic;
+}
+
+/* Below this is everything for sign-up */
+
+.sign-up{
+    background-color: #FFD966;
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.sign-box{
+    background-color: #FFF2CC;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 4%;
+    width: 700px;
+    display: flex;
+}
+
+.sign-text{
+    flex-basis: 400px;
+    margin-right: auto;
+    color: #DFA67B;
+}
+
+.sign-text > h3{
+    font-size: 30px;
+}
+
+.sign-text > p{
+    font-size: 20px;
+}
+
+button{
+    background-color: #DFA67B;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
 }
