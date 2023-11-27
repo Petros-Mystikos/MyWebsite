@@ -69,7 +69,7 @@ ul{
     font-size: 30px;
 }
 
-/* Below this is every CSS for */
+/* Below this is every CSS for content */
 
 .content{
     padding: 40px 0;
@@ -92,4 +92,21 @@ ul{
 .content > div > p{
     font-size: 25px;
     color: #DFA67B;
+}
+
+/* Below this is every CSS for quote */
+
+.quote{
+    display: flex;
+    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF2CC;
+}
+
+.quote > p{
+    color: #F4B183;
+    font-size: 30px;
+    flex-basis: 800px;
+    font-style: italic;
 }
